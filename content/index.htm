@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <!-- Important that this gets in search results. -->
+<meta charset="UTF-8">
+<meta name="description" content="RubixMeCube - Let's get friendly! Please don't be rude to other people.">
 <title>RubixMeCube - Where we discuss, chat, and more friendly features!</title>
-RubixMeCube - Let's get friendly! Please don't be rude to other people.
 <style>
 #rubix {
   font-color: rbg(255,0,0);
@@ -21,8 +22,11 @@ RubixMeCube - Let's get friendly! Please don't be rude to other people.
 <a id="id" href="/come">Sign in</a> | <a id="id2" href="/register">Sign Up</a>
 <br>
 <br>
-<a href="github.com/rubixmecube/rubixmecube.github.io/">Made using Github</a>
 <br>
-<br>
-<input value="search?q=" class="input" height="7"><button onClick="location.replace('/search')" height="7">Enter</button>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for help...">
+<script>
+function myFunction() {
+  location.assign("https://rubixmecube.github.io/content/search/")
+}
+</script>
 </body>
