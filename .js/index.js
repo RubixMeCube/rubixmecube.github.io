@@ -1,1 +1,1 @@
-location.replace("https://rubixmecube.github.io/content/index.htm");
+location.href = "https://rubixmecube.github.io/content/index.htm";
